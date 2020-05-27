@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap');
+
+:root {
+    font-family: 'Patua One', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+@media (min-width: 500px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+header {
+    background-image: url(../img/logo.jpg);
+    max-height: 400px;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+}
